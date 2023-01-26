@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-img">
+            <img src="./src/img/img.svg" alt="register image">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Register</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Get In</a></button>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="fistname">FistName</label>
+                        <input id="fistname" type="text" name="fistname" placeholder="type your first name" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">LastName</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="type your last name" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="type your E-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="phone">Phone</label>
+                        <input id="phone" type="tel" name="phone" placeholder="type your phone" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Password</label>
+                        <input id="password" type="password" name="password" placeholder="type your Password" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Confirm your Password</label>
+                        <input id="password" type="password" name="password" placeholder="Confirm your Password" required>
+                    </div>
+                </div>
+                <div class="gender-inputs">
+                    <div class="gender-tittle">
+                        <h6>Gender</h6>
+                    </div>
+                    
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Female</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Male</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" id="other" name="gender">
+                            <label for="other">Other</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" id="none" name="gender">
+                            <label for="none">I don't want to declare</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="continue-button">
+                    <button><a href="#">Continue</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
